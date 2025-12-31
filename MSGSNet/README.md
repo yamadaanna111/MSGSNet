@@ -53,7 +53,7 @@ python train.py -e 300
 
 - `-e`: number of training epochs
 
-Results and checkpoints are saved under the `experiments/` directory.
+The best-performing model parameters (`best_model.pt`) and evaluation results are saved under the `experiments/` directory.
 
 ------
 
@@ -63,5 +63,6 @@ This repository is intended for:
 
 - Reproducible research
 - Comparative evaluation of TFBS prediction methods
+
 
 The codebase is not optimized for large-scale production deployment.
