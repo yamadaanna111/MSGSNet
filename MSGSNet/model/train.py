@@ -320,7 +320,7 @@ def train_net(device, net, trainloader, valloader, epochs, dataset_name, lr, wei
     criterion = torch.nn.CrossEntropyLoss()
     net = net.to(device)
 
-    patience = 10
+    patience = 20
     best_val_auc = 0.0
     best_val_aupr = 0.0
     best_score = 0.0
@@ -536,4 +536,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
