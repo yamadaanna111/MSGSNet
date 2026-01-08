@@ -2,7 +2,7 @@
 
 MSGSNet is a sequence-graph dual-branch collaborative modeling framework for transcription factor binding site (TFBS) prediction that models DNA sequences from complementary semantic and structural viewpoints. 
 
-![](https://github.com/yamadaanna111/MSGSNet/blob/main/model.png)
+![image]( https://github.com/yangfengzhuguet/IKANBind/blob/main/workflow.jpg)
 
 ---
 
@@ -68,4 +68,5 @@ This repository is intended for:
 
 
 The codebase is not optimized for large-scale production deployment.
+
 
