@@ -13,7 +13,7 @@ class HierarchicalBiAttention(nn.Module):
     - Global Attention: 通过全局注意力汇聚整体上下文信息
     最终结果融合两者，以增强层次化表示能力。
     """
-    def __init__(self, embed_dim, num_heads=4, dropout=0.1, local_window=15):
+    def __init__(self, embed_dim, num_heads=4, dropout=0.1, local_window=5):
         super().__init__()
         self.local_attn = nn.MultiheadAttention(embed_dim, num_heads, dropout=dropout, batch_first=True)
         self.global_attn = nn.MultiheadAttention(embed_dim, num_heads, dropout=dropout, batch_first=True)
